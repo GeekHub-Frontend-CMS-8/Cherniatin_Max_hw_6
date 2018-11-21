@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.title {
+  opacity: 0.8;
+  color: $genera-color;
+  font: 700 46px/49px $font-asap;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.border__top {
+  height: 4px;
+  background: #212121;
+  opacity: 0.6;
+  max-width: 60px;
+  width: 100%;
+}
