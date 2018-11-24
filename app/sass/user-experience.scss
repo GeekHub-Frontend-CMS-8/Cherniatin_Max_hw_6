@@ -1,5 +1,62 @@
 .user-experience__container {
-  background: url("/img/container_img.png") no-repeat center/cover;
+  background: url("../img/container_img.png") no-repeat center/cover;
   height: 670px;
   padding-top: 108px;
+
+  &--headline {
+    color: $genera-color;
+    font: 500 90px/67px $font-asap;
+    margin: 175px 0 0;
+  }
+
+  &--text {
+    opacity: 0.54;
+    color: $genera-color;
+    font: 500 22px/67px $font-asap;
+  }
 }
+.button__know-more {
+  text-decoration: none;
+  padding: 19px 30px;
+  margin-right: 20px;
+  color: $genera-color;
+  font-family: $font-asap;
+  font-size: 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+.button__hire-me {
+  text-decoration: none;
+  padding: 19px 50px;
+  color: $genera-color;
+  font-family: $font-asap;
+  font-size: 16px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+
+  &:hover {
+    background-color: #ffffff
+  }
+}
+.user-experience__img {
+
+  &__image {
+    width: 594px;
+    height: 643px;
+
+  }
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
