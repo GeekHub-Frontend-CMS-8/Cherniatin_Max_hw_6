@@ -418,18 +418,10 @@ table {
     align-content: center;
     align-items: center;
     text-decoration: none; }
-  .footer__list--link-img-1 {
+  .footer__list--link-img-1, .footer__list--link-img-3, .footer__list--link-img-4, .footer__list--link-img-5, .footer__list--link-img-6 {
     background-color: #d4d4d4; }
   .footer__list--link-img-2 {
     background-color: #0084b4; }
-  .footer__list--link-img-3 {
-    background-color: #d4d4d4; }
-  .footer__list--link-img-4 {
-    background-color: #d4d4d4; }
-  .footer__list--link-img-5 {
-    background-color: #d4d4d4; }
-  .footer__list--link-img-6 {
-    background-color: #d4d4d4; }
   .footer .fa-facebook-f,
   .footer .fa-twitter,
   .footer .fa-google-plus-g,
