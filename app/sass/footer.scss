@@ -1,0 +1,56 @@
+.footer {
+  background: url("../img/footer_img.png") no-repeat center/cover;
+  &__border {
+    max-width: 1140px;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 26px;
+  }
+  &__item {
+    float: left;
+    display: flex;
+    margin-left: 9px;
+  }
+  &__list--link-img {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  &__list--link-img-1 {
+    background-color: #d4d4d4;
+  }
+  &__list--link-img-2 {
+    background-color: #0084b4;
+  }
+  &__list--link-img-3 {
+    background-color: #d4d4d4;
+  }
+  &__list--link-img-4 {
+    background-color: #d4d4d4;
+  }
+  &__list--link-img-5 {
+    background-color: #d4d4d4;
+  }
+  &__list--link-img-6 {
+    background-color: #d4d4d4;
+  }
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-google-plus-g,
+  .fa-behance-square,
+  .fa-basketball-ball {
+    font-size: 16px;
+  }
+  &__container--text {
+    display: flex;
+    align-self: center;
+    color: #d4d4d4;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+}

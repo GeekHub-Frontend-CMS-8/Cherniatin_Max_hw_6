@@ -65,6 +65,32 @@ table {
   max-width: 60px;
   width: 100%; }
 
+.title__center {
+  text-align: center;
+  opacity: 0.8;
+  color: #4d4d4d;
+  font: 700 46px/49px "Asap", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 60px; }
+
+.border__center {
+  margin: 0 auto;
+  height: 4px;
+  background: #212121;
+  opacity: 0.6;
+  max-width: 60px;
+  width: 100%; }
+
+.title__footer {
+  text-align: center;
+  opacity: 0.8;
+  color: #ffffff;
+  font: 700 46px/49px "Asap", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 60px; }
+
 .header {
   position: absolute;
   width: 100%;
@@ -82,8 +108,379 @@ table {
   .header__nav--list {
     display: flex;
     flex-direction: row; }
+  .header__nav--list-item {
+    margin: 0 15px; }
+  .header__nav--list-link {
+    text-decoration: none;
+    color: #4d4d4d;
+    font: 400 16px/67px "Asap", sans-serif;
+    line-height: 67px; }
+    .header__nav--list-link:hover {
+      border-bottom: 2px solid #4d4d4d;
+      transition: 0.3s; }
 
 .user-experience__container {
-  background: url("/img/container_img.png") no-repeat center/cover;
+  background: url("../img/container_img.png") no-repeat center/cover;
   height: 670px;
   padding-top: 108px; }
+  .user-experience__container--headline {
+    color: #4d4d4d;
+    font: 500 90px/67px "Asap", sans-serif;
+    margin: 175px 0 0; }
+  .user-experience__container--text {
+    opacity: 0.54;
+    color: #4d4d4d;
+    font: 500 22px/67px "Asap", sans-serif; }
+
+.button__know-more {
+  text-decoration: none;
+  padding: 19px 30px;
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  border: 1px solid #4d4d4d;
+  box-sizing: border-box;
+  display: inline-block; }
+  .button__know-more:hover {
+    background-color: #ffffff; }
+
+.button__hire-me {
+  text-decoration: none;
+  padding: 19px 50px;
+  color: #4d4d4d;
+  font-family: "Asap", sans-serif;
+  font-size: 16px;
+  border: 1px solid #4d4d4d;
+  box-sizing: border-box;
+  display: inline-block; }
+  .button__hire-me:hover {
+    background-color: #ffffff; }
+
+.user-experience__img__image {
+  width: 594px;
+  height: 643px; }
+
+.flex {
+  display: flex;
+  justify-content: space-between; }
+
+.title {
+  max-width: 333px;
+  padding-bottom: 12px; }
+
+.know-more-about-me__container {
+  padding: 109px 0 124px 0; }
+  .know-more-about-me__container--text {
+    width: 469px;
+    color: #4d4d4d;
+    font: 400 16px/26px "Asap", sans-serif;
+    font-size: 16px;
+    margin-bottom: 36px; }
+  .know-more-about-me__container--link {
+    border: 1px solid #4d4d4d;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 19px 50px; }
+  .know-more-about-me__container--link-text {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    text-decoration: none; }
+
+.service__container {
+  background-color: #f6f6f6;
+  padding-top: 119px; }
+  .service__container--list {
+    margin: 0 auto;
+    overflow: hidden; }
+  .service__container--item {
+    max-width: 375px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 82px; }
+  .service__container--img-user {
+    width: 77px;
+    height: 77px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-1 {
+    background: url("../img/1-services.png") no-repeat center/cover; }
+  .service__container--head {
+    color: #4d4d4d;
+    font: 500 24px/49px "Asap", sans-serif;
+    line-height: 49px; }
+  .service__container--img-wireframes {
+    width: 76px;
+    height: 62px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-2 {
+    background: url("../img/2-services.png") no-repeat center/cover; }
+  .service__container--img-testing {
+    width: 67px;
+    height: 75px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-3 {
+    background: url("../img/3-services.png") no-repeat center/cover; }
+  .service__container--img-design {
+    width: 90px;
+    height: 75px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-4 {
+    background: url("../img/4-services.png") no-repeat center/cover; }
+  .service__container--img-delivery {
+    width: 57px;
+    height: 81px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-5 {
+    background: url("../img/5-services.png") no-repeat center/cover; }
+  .service__container--img-support {
+    width: 76px;
+    height: 76px;
+    opacity: 0.8;
+    margin: 0 auto 13px; }
+  .service__container--img-6 {
+    background: url("../img/6-services.png") no-repeat center/cover; }
+
+.my-skills__container {
+  padding-top: 117px; }
+  .my-skills__container--flex {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+  .my-skills__container--img {
+    margin-bottom: 125px; }
+
+.portfolio__container {
+  background-color: #f6f6f6;
+  padding-top: 126px; }
+  .portfolio__container--list {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .portfolio__container--item {
+    max-width: 369px;
+    height: 318px;
+    width: 100%;
+    display: block;
+    position: relative; }
+  .portfolio__container--item:nth-child(3n-1) {
+    margin: 0 30px 30px; }
+  .portfolio__container--item img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle; }
+  .portfolio__container--button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 28px 0 123px; }
+  .portfolio__container--text {
+    text-decoration: none;
+    padding: 20px 47px;
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #4d4d4d; }
+
+.content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 28px; }
+
+.testimonials__container {
+  padding: 126px 0 120px 0; }
+  .testimonials__container--border {
+    max-width: 955px;
+    height: 349px;
+    border: 1px solid #212121;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .testimonials__container--name {
+    opacity: 0.9;
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .testimonials__container--company {
+    opacity: 0.9;
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .testimonials__container--text {
+    max-width: 569px;
+    height: 93px;
+    opacity: 0.6;
+    color: #212121;
+    font: 400 16px/26px "Asap", sans-serif;
+    text-transform: uppercase; }
+  .testimonials__container--img {
+    max-width: 159px;
+    height: 159px;
+    margin: 0 31px; }
+  .testimonials__container--cube {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px; }
+  .testimonials__container--cube-1 {
+    margin-bottom: 56px; }
+
+.menu__container {
+  background-color: #f6f6f6;
+  padding-top: 52px;
+  padding-bottom: 65px; }
+  .menu__container--list {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 22px; }
+  .menu__container--item {
+    max-width: 260px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; }
+  .menu__container--work {
+    width: 98px;
+    height: 98px;
+    opacity: 0.8; }
+  .menu__container--img-1 {
+    background: url("../img/work_1.png") no-repeat center/cover;
+    margin: 0 auto 31px; }
+  .menu__container--headline {
+    color: #212121;
+    font-family: "Asap", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 260px;
+    margin-bottom: 10px; }
+  .menu__container--text {
+    font-family: "Asap", sans-serif;
+    font-size: 30px;
+    font-weight: 400; }
+  .menu__container--client {
+    width: 77px;
+    height: 77px;
+    opacity: 0.8; }
+  .menu__container--img-2 {
+    background: url("../img/happiness_2.png") no-repeat center/cover;
+    margin: 0 auto 31px; }
+  .menu__container--project {
+    width: 64px;
+    height: 74px;
+    opacity: 0.8; }
+  .menu__container--img-3 {
+    background: url("../img/project_3.png") no-repeat center/cover;
+    margin: 0 auto 31px; }
+  .menu__container--coffe {
+    width: 70px;
+    height: 82px;
+    opacity: 0.8; }
+  .menu__container--img-4 {
+    background: url("../img/coffe_4.png") no-repeat center/cover;
+    margin: 0 auto 31px; }
+
+.footer {
+  background: url("../img/footer_img.png") no-repeat center/cover; }
+  .footer__border {
+    max-width: 1140px;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 26px; }
+  .footer__item {
+    float: left;
+    display: flex;
+    margin-left: 9px; }
+  .footer__list--link-img {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none; }
+  .footer__list--link-img-1 {
+    background-color: #d4d4d4; }
+  .footer__list--link-img-2 {
+    background-color: #0084b4; }
+  .footer__list--link-img-3 {
+    background-color: #d4d4d4; }
+  .footer__list--link-img-4 {
+    background-color: #d4d4d4; }
+  .footer__list--link-img-5 {
+    background-color: #d4d4d4; }
+  .footer__list--link-img-6 {
+    background-color: #d4d4d4; }
+  .footer .fa-facebook-f,
+  .footer .fa-twitter,
+  .footer .fa-google-plus-g,
+  .footer .fa-behance-square,
+  .footer .fa-basketball-ball {
+    font-size: 16px; }
+  .footer__container--text {
+    display: flex;
+    align-self: center;
+    color: #d4d4d4;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
+
+.say-hello__container {
+  height: 610px;
+  padding-top: 145px; }
+  .say-hello__container--form {
+    margin: auto;
+    padding: 15px;
+    max-width: 850px; }
+    .say-hello__container--form .input__text {
+      margin: 0 auto 29px 32px;
+      display: inline-block;
+      width: 359px;
+      height: 55px;
+      padding-left: 10px;
+      color: #212121;
+      font-family: "Asap", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
+    .say-hello__container--form .textarea {
+      margin: 0 auto 30px;
+      padding: 15px;
+      display: block;
+      width: 750px;
+      height: 200px;
+      color: #212121;
+      font-family: "Asap", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
+  .say-hello__container--link {
+    display: flex;
+    justify-content: center; }
+  .say-hello__container--button {
+    color: #4d4d4d;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 19px 45px 19px 31px;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; }

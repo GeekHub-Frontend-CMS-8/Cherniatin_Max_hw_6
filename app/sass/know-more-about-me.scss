@@ -1,0 +1,26 @@
+.title {
+  max-width: 333px;
+  padding-bottom: 12px;
+}
+.know-more-about-me__container {
+  padding: 109px 0 124px 0;
+  &--text {
+    width: 469px;
+    color: $genera-color;
+    font: 400 16px/26px $font-asap;
+    font-size: 16px;
+    margin-bottom: 36px;
+  }
+  &--link {
+    border: 1px solid $genera-color;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 19px 50px;
+  }
+  &--link-text {
+    color: $genera-color;
+    font-family: $font-asap;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
