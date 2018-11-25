@@ -20,3 +20,29 @@
   max-width: 60px;
   width: 100%;
 }
+.title__center {
+  text-align: center;
+  opacity: 0.8;
+  color: $genera-color;
+  font: 700 46px/49px $font-asap;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+}
+.border__center {
+  margin: 0 auto;
+  height: 4px;
+  background: #212121;
+  opacity: 0.6;
+  max-width: 60px;
+  width: 100%;
+}
+.title__footer {
+  text-align: center;
+  opacity: 0.8;
+  color: #ffffff;
+  font: 700 46px/49px $font-asap;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 60px;
+}

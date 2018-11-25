@@ -1,0 +1,11 @@
+.my-skills__container {
+  padding-top: 117px;
+  &--flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  &--img {
+    margin-bottom: 125px;
+  }
+}

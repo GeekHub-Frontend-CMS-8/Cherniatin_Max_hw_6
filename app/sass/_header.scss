@@ -21,5 +21,19 @@
     display: flex;
     flex-direction: row;
   }
+  &__nav--list-item {
+    margin: 0 15px;
+
+  }
+  &__nav--list-link {
+    text-decoration: none;
+    color: $genera-color;
+    font:400 16px/67px $font-asap;
+    line-height: 67px;
+    &:hover {
+      border-bottom: 2px solid $genera-color;
+      transition: 0.3s;
+    }
+  }
 }
 

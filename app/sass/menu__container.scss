@@ -1,0 +1,68 @@
+.menu__container {
+  background-color: #f6f6f6;
+  padding-top: 52px;
+  padding-bottom: 65px;
+  &--list {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 22px;
+  }
+  &--item {
+    max-width: 260px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  &--work {
+    width: 98px;
+    height: 98px;
+    opacity: 0.8;
+  }
+  &--img-1 {
+    background: url("../img/work_1.png") no-repeat center/cover;
+    margin: 0 auto 31px;
+  }
+  &--headline {
+    color: #212121;
+    font-family: 500 22px $font-asap;
+    max-width: 260px;
+    margin-bottom: 10px;
+
+  }
+  &--text {
+    font-family: $font-asap;
+    font-size: 30px;
+    font-weight: 400;
+
+  }
+  &--client {
+    width: 77px;
+    height: 77px;
+    opacity: 0.8;
+  }
+  &--img-2 {
+    background: url("../img/happiness_2.png") no-repeat center/cover;
+    margin: 0 auto 31px;
+  }
+  &--project {
+    width: 64px;
+    height: 74px;
+    opacity: 0.8;
+  }
+  &--img-3 {
+    background: url("../img/project_3.png") no-repeat center/cover;
+    margin: 0 auto 31px;
+  }
+  &--coffe {
+    width: 70px;
+    height: 82px;
+    opacity: 0.8;
+  }
+  &--img-4 {
+    background: url("../img/coffe_4.png") no-repeat center/cover;
+    margin: 0 auto 31px;
+  }
+}
