@@ -171,11 +171,13 @@ table {
 
 .know-more-about-me__container {
   padding: 109px 0 124px 0; }
+  .know-more-about-me__container--flex {
+    display: flex;
+    justify-content: space-between; }
   .know-more-about-me__container--text {
     width: 469px;
     color: #4d4d4d;
     font: 400 16px/26px "Asap", sans-serif;
-    font-size: 16px;
     margin-bottom: 36px; }
   .know-more-about-me__container--link {
     border: 1px solid #4d4d4d;
@@ -369,9 +371,7 @@ table {
     margin: 0 auto 31px; }
   .menu__container--headline {
     color: #212121;
-    font-family: "Asap", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
+    font-family: 500 22px "Asap", sans-serif;
     max-width: 260px;
     margin-bottom: 10px; }
   .menu__container--text {

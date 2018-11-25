@@ -4,11 +4,14 @@
 }
 .know-more-about-me__container {
   padding: 109px 0 124px 0;
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+  }
   &--text {
     width: 469px;
     color: $genera-color;
     font: 400 16px/26px $font-asap;
-    font-size: 16px;
     margin-bottom: 36px;
   }
   &--link {
